@@ -13,5 +13,5 @@ syntax: glob
 *.bz2
 *.zip
 
-# python compiled code
-*.pyc
+# python compiled and optimized code
+*.py[co]
