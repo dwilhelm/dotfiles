@@ -1,0 +1,35 @@
+[ui]
+username = David Wilhelm <email@example.com>
+merge = kdiff3
+
+[diff]
+git = True
+showfunc = True
+
+[extdiff]
+cmd.kdiff3 =
+
+[extensions]
+bookmarks =
+churn =
+color =
+convert =
+extdiff =
+graphlog =
+mq =
+patchbomb =
+rebase =
+record =
+
+[smtp]
+host = localhost
+
+[tortoisehg]
+editor = mousepad
+vdiff = kdiff3
+summarylen = 56
+messagewrap = 72
+
+[trusted]
+users = root
+
