@@ -16,8 +16,7 @@ export EDITOR=/usr/bin/vi
 export VISUAL=/usr/bin/vim
 
 # Language settings
-export LC_CTYPE="C"
-export LC_COLLATE="C"
+export LANG="en_US.utf8"
 
 # Set paths.
 PATH=${PATH}:$HOME/bin
