@@ -1,0 +1,11 @@
+# term colors
+TERMFG="#111111"
+TERMBG="#f7f7dd"
+
+# Set aliases.
+alias su='su -l'
+alias ll='ls -lAF'
+alias w3m='w3m -o wrap_search=true'
+alias xterm='xterm -bg "$TERMBG" -fg "$TERMFG" +bdc +dc -sb -si -sl 256'
+alias mutt='TERM=xterm-color mutt'
+alias mplayer='mplayer -framedrop -stop-xscreensaver'
