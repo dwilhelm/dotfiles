@@ -2,6 +2,11 @@
 username = David Wilhelm <email@example.com>
 merge = kdiff3
 
+[auth]
+bitbucket.prefix = bitbucket.org
+bitbucket.username = exampleuser
+bitbucket.schemes = https http
+
 [diff]
 git = True
 showfunc = True
