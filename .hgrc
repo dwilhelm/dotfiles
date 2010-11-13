@@ -2,6 +2,11 @@
 username = David Wilhelm <dave@jumbledpile.com>
 merge = kdiff3
 
+[auth]
+bitbucket.prefix = bitbucket.org
+bitbucket.username = dwilhelm
+bitbucket.schemes = https http
+
 [diff]
 git = True
 showfunc = True
