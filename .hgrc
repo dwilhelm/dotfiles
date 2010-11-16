@@ -22,6 +22,7 @@ convert =
 extdiff =
 graphlog =
 mq =
+parentrevspec =
 patchbomb =
 rebase =
 record =
