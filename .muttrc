@@ -13,6 +13,7 @@ set editor="/usr/bin/vim"
 set header="no"
 set weed="yes"
 set include="yes"
+set signature="~/.signature"
 
 # List of header fields to display
 unignore from: subject to cc date x-mailer x-url user-agent x-spam-status
