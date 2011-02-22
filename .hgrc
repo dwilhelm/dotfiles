@@ -33,7 +33,7 @@ host = localhost
 [tortoisehg]
 editor = mousepad
 vdiff = kdiff3
-summarylen = 56
+summarylen = 72
 messagewrap = 72
 
 [trusted]
