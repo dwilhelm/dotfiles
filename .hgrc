@@ -26,6 +26,7 @@ parentrevspec =
 patchbomb =
 rebase =
 record =
+transplant =
 
 [smtp]
 host = localhost
