@@ -14,6 +14,7 @@ set header="no"
 set weed="yes"
 set include="yes"
 set signature="~/.signature"
+set markers="no"
 
 # List of header fields to display
 unignore from: subject to cc date x-mailer x-url user-agent x-spam-status
