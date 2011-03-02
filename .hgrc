@@ -5,7 +5,7 @@ merge = kdiff3
 [auth]
 bitbucket.prefix = bitbucket.org
 bitbucket.username = exampleuser
-bitbucket.schemes = https http
+bitbucket.schemes = https
 
 [diff]
 git = True
