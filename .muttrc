@@ -7,7 +7,7 @@ set sort="threads"
 set alias_file="~/.mail_aliases"
 set check_new="yes"
 set index_format="%4C %Z %d %-15.15L %s"
-#set date_format="!%a, %d %b %Y %H:%M:%S %Z"
+set date_format="%a, %F %H:%M %Z"
 set forward_format="Fwd: %s"
 set editor="/usr/bin/vim"
 set header="no"
@@ -37,6 +37,9 @@ color hdrdefault cyan black
 color indicator black cyan
 color markers	brightred black
 color quoted	green black
+color quoted1	cyan black
+color quoted2	magenta black
+color quoted3	red black
 color signature cyan black
 color status	brightgreen blue
 color tilde	blue black
