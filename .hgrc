@@ -41,3 +41,6 @@ messagewrap = 72
 [trusted]
 users = root
 
+[web]
+cacerts = /etc/ssl/certs/ca-certificates.crt
+
