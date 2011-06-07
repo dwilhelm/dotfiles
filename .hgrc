@@ -37,6 +37,7 @@ editor = mousepad
 vdiff = kdiff3
 summarylen = 72
 messagewrap = 72
+tabwidth = 4
 
 [trusted]
 users = root
