@@ -14,6 +14,13 @@ showfunc = True
 [extdiff]
 cmd.kdiff3 =
 
+[merge-tools]
+kdiff3.args = --auto --L1 base --L2 parent1 --L3 parent2 $base $local $other -o $output
+kdiff3.diffargs = --L1 '$plabel1' --L2 '$clabel' $parent $child
+kdiff3.diff3args = --L1 '$plabel1' --L2 '$clabel' --L3 '$plabel2' $parent1 $child $parent2
+kdiff3.dirdiff = True
+kdiff3.fixeol = False
+
 [extensions]
 bookmarks =
 churn =
