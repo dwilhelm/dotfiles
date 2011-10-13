@@ -22,7 +22,6 @@ kdiff3.dirdiff = True
 kdiff3.fixeol = False
 
 [extensions]
-bookmarks =
 churn =
 color =
 convert =
