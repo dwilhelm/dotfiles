@@ -41,7 +41,7 @@ host = localhost
 [tortoisehg]
 editor = mousepad
 vdiff = kdiff3
-summarylen = 72
+summarylen = 64
 messagewrap = 72
 tabwidth = 4
 
