@@ -1,5 +1,5 @@
 @echo off
 
-for %%i in (mercurial.ini .vimrc) do @(
+for %%i in (mercurial.ini .hgignore .vimrc) do @(
 	copy /Y %%i "%USERPROFILE%"
 )
