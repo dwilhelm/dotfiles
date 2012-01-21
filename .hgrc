@@ -1,6 +1,7 @@
 [ui]
 username = David Wilhelm <email@example.com>
 merge = kdiff3
+ignore = ~/.hgignore
 
 [auth]
 bitbucket.prefix = bitbucket.org

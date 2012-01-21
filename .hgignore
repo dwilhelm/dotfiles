@@ -15,3 +15,9 @@ syntax: glob
 
 # python compiled and optimized code
 *.py[co]
+
+# object files
+*.o
+
+# PyCharm
+.idea
