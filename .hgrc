@@ -23,18 +23,13 @@ kdiff3.dirdiff = True
 kdiff3.fixeol = False
 
 [extensions]
-churn =
 color =
-convert =
 extdiff =
 graphlog =
 hgsubversion = ~/src/hgext/hgsubversion/hgsubversion
 mq =
 patchbomb =
-purge =
-rebase =
 record =
-transplant =
 
 [smtp]
 host = localhost
