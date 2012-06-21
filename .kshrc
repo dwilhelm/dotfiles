@@ -1,6 +1,7 @@
 # common utilities
 export EDITOR=/usr/bin/vi
 export VISUAL=/usr/local/bin/vim
+export HISTFILE=$HOME/.ksh_history
 
 # Language settings
 export LANG="C"
