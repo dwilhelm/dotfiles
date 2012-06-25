@@ -7,7 +7,7 @@ export HISTFILE=$HOME/.ksh_history
 export LANG="C"
 
 # Set paths.
-PATH=${PATH}:$HOME/bin
+echo $PATH | grep :$HOME/bin > /dev/null 2>&1 || PATH=${PATH}:$HOME/bin
 PYTHONPATH=${HOME}/lib/python
 
 export PATH PYTHONPATH
