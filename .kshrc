@@ -7,6 +7,8 @@ export HISTFILE=$HOME/.ksh_history
 export LANG="C"
 
 # Set paths.
+echo $PATH | grep :/usr/local/jdk-1.7.0/bin > /dev/null 2>&1 || \
+	PATH=${PATH}:/usr/local/jdk-1.7.0/bin
 echo $PATH | grep :$HOME/bin > /dev/null 2>&1 || PATH=${PATH}:$HOME/bin
 PYTHONPATH=${HOME}/lib/python
 
