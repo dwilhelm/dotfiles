@@ -37,10 +37,11 @@ fi
 
 # start some nice programs
 
-xclock -geometry 50x50-1+1 &
+#xclock -geometry 50x50-1+1 &
 #xconsole -iconic &
 xterm -geometry 80x24 &
 #fvwm || xterm
+xscreensaver &
 synergys
 e16
 
