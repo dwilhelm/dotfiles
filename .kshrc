@@ -50,7 +50,7 @@ stty erase ^?
 
 set -o emacs
 
-PKG_PATH=ftp://ftp5.usa.openbsd.org/pub/OpenBSD/5.1/packages/i386/
+PKG_PATH=ftp://ftp5.usa.openbsd.org/pub/OpenBSD/`uname -r`/packages/`uname -p`/
 export PKG_PATH
 
 # Alias definitions.
