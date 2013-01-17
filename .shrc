@@ -20,7 +20,7 @@ export LANG="en_US.utf8"
 
 # Set paths.
 PATH=${PATH}:$HOME/bin
-PYTHONPATH=/usr/local/lib/python/dist-packages:${HOME}/lib/python
+PYTHONPATH=${HOME}/lib/python
 
 export PATH PYTHONPATH
 
