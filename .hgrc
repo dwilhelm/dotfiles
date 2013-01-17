@@ -43,9 +43,6 @@ tabwidth = 4
 initialrevision = workingdir
 fullpath = True
 
-[trusted]
-users = root
-
 [web]
 cacerts = /etc/ssl/certs/ca-certificates.crt
 
