@@ -17,9 +17,7 @@ if has("syntax")
 endif
 
 " colors and appearance
-if has("gui")
-    colorscheme evening
-endif
+colorscheme evening
 
 " file encodings
 if has("multi_byte")
