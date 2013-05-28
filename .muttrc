@@ -15,6 +15,8 @@ set weed="yes"
 set include="yes"
 set signature="~/.signature"
 set markers="no"
+set realname="David Wilhelm"
+set from="dave@jumbledpile.com"
 set reverse_name
 alternates "dave@jumbledpile.com|dave@bluefir.org"
 
