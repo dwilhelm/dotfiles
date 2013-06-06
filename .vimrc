@@ -17,7 +17,8 @@ if has("syntax")
 endif
 
 " colors and appearance
-colorscheme evening
+set background=light
+colorscheme default
 
 " file encodings
 if has("multi_byte")
