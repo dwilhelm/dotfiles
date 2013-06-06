@@ -15,6 +15,10 @@ set weed="yes"
 set include="yes"
 set signature="~/.signature"
 set markers="no"
+set realname="David Wilhelm"
+set from="email@example.com"
+set reverse_name
+alternates "email@example.com|email@example.org"
 
 # List of header fields to display
 unignore from: subject to cc date x-mailer x-url user-agent x-spam-status
