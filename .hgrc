@@ -4,9 +4,9 @@ merge = kdiff3
 ignore = ~/.hgignore
 
 [auth]
-bitbucket.prefix = bitbucket.org
-bitbucket.username = exampleuser
-bitbucket.schemes = https
+bitbucket.org.prefix = bitbucket.org
+bitbucket.org.username = exampleuser
+bitbucket.org.schemes = https
 
 [diff]
 git = True
