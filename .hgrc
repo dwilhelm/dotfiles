@@ -25,7 +25,6 @@ kdiff3.fixeol = False
 [extensions]
 color =
 extdiff =
-graphlog =
 #hgsubversion = ~/src/hgext/hgsubversion/hgsubversion
 mq =
 patchbomb =
