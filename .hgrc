@@ -30,7 +30,6 @@ tls = True
 username = davewilhelm@gmail.com
 
 [tortoisehg]
-editor = gedit
 vdiff = kdiff3
 summarylen = 64
 tabwidth = 4
