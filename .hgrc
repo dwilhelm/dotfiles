@@ -24,7 +24,10 @@ patchbomb =
 record =
 
 [smtp]
-host = localhost
+host = smtp.gmail.com
+port = 587
+tls = True
+username = davewilhelm@gmail.com
 
 [tortoisehg]
 editor = gedit
