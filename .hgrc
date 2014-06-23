@@ -21,6 +21,7 @@ extdiff =
 #hgsubversion = ~/src/hgext/hgsubversion/hgsubversion
 mq =
 patchbomb =
+purge =
 record =
 
 [smtp]
