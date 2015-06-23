@@ -26,10 +26,7 @@ rebase =
 record =
 
 [smtp]
-host = smtp.gmail.com
-port = 587
-tls = True
-username = davewilhelm@gmail.com
+host = localhost
 
 [tortoisehg]
 vdiff = kdiff3
