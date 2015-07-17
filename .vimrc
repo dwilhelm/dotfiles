@@ -17,7 +17,7 @@ if has("syntax")
 endif
 
 " colors and appearance
-set background=light
+set background=dark
 colorscheme default
 
 " file encodings
