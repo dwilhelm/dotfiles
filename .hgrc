@@ -10,7 +10,6 @@ bitbucket.org.schemes = https
 
 [diff]
 git = True
-showfunc = True
 
 [extdiff]
 cmd.kdiff3 =
