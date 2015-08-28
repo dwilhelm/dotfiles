@@ -17,12 +17,14 @@ cmd.kdiff3 =
 [extensions]
 color =
 extdiff =
+evolve = ~/src/hgext/evolve/hgext/evolve.py
 #hgsubversion = ~/src/hgext/hgsubversion/hgsubversion
 mq =
 patchbomb =
 purge =
 rebase =
 record =
+strip =
 
 [smtp]
 host = localhost
