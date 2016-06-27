@@ -1,0 +1,7 @@
+:0fw: spamassassin.lock
+* < 256000
+| /bin/spamassassin
+
+:0:
+* ^X-Spam-Status: Yes
+IN-spam/
