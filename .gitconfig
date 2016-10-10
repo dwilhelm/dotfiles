@@ -7,6 +7,3 @@
 
 [core]
 	excludesfile = ~/.gitignore
-
-[credential]
-	helper = !'C:\\Users\\dave\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
