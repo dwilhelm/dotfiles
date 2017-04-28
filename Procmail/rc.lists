@@ -1,0 +1,36 @@
+:0:
+* ^TO_thg-dev@googlegroups\.com
+IN-thg-dev/
+
+:0:
+* ^TO_tortoisehg-develop@lists\.sourceforge\.net
+IN-thg-dev/
+
+:0:
+* ^TO_tortoisehg-discuss@lists\.sourceforge\.net
+IN-thg-discuss/
+
+:0:
+* ^TO_tortoisehg-issues@lists\.sourceforge\.net
+IN-thg-issues/
+
+:0:
+* ^TO_mercurial@selenic\.com
+IN-mercurial/
+
+:0:
+* ^TO_mercurial-devel@selenic\.com
+IN-mercurial-devel/
+
+:0:
+* ^TO_kdiff3-user@lists\.sourceforge\.net
+IN-kdiff3/
+
+:0:
+* ^TO_misc@(cvs\.)?openbsd\.org
+IN-openbsd/
+
+:0:
+* ^TO_bugtraq@securityfocus\.com
+IN-bugtraq/
+
