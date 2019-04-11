@@ -18,7 +18,6 @@ endif
 
 " colors and appearance
 set background=dark
-colorscheme evening
 
 " file encodings
 if has("multi_byte")
