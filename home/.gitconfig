@@ -7,3 +7,4 @@
 
 [core]
 	excludesfile = ~/.gitignore
+	autocrlf = input
