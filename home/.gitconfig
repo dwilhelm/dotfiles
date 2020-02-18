@@ -6,5 +6,4 @@
 	ui = true
 
 [core]
-	excludesfile = ~/.gitignore
 	autocrlf = input
