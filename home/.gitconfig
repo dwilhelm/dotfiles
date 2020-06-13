@@ -5,3 +5,5 @@
 	ui = true
 [core]
 	autocrlf = input
+[pull]
+	ff = only
