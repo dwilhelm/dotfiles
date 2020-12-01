@@ -25,6 +25,7 @@ purge =
 rebase =
 record =
 strip =
+#hggit =
 
 [smtp]
 host = localhost
@@ -37,5 +38,5 @@ initialrevision = workingdir
 fullpath = True
 
 [web]
-cacerts = /etc/ssl/certs/ca-bundle.crt
+cacerts = /etc/ssl/certs/ca-certificates.crt
 
