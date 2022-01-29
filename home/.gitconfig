@@ -5,5 +5,7 @@
 	ui = true
 [core]
 	autocrlf = input
+[init]
+	defaultBranch = main
 [pull]
 	ff = only
