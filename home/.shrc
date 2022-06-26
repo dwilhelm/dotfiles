@@ -1,0 +1,23 @@
+# Generic shell session setup.
+
+# Change the prompt for non-root users
+if [ `id -u` -ne 0 ]; then
+	# Include the path in the title bar, if supported.
+	case "${TERM}" in
+	xterm*|rxvt*)
+		PS1="\[\e]2;\h:\w\a\]"
+		;;
+	*)
+		PS1=""
+		;;
+	esac
+	# Set prompt.
+	PROMPT_HOSTCOLOR='0;32m'
+	PROMPT_TIMECOLOR='0;36m'
+	PROMPT_PWDCOLOR='0;33m'
+	PS1="${PS1}\n\
+\[\e[${PROMPT_HOSTCOLOR}\]\u@\h\
+\[\e[${PROMPT_TIMECOLOR}\] \d \t\
+\[\e[${PROMPT_PWDCOLOR}\] \w\
+\[\e[0m\]\n\$ "
+fi

@@ -1,9 +1,11 @@
 [user]
 	name = David Wilhelm
 	email = email@example.com
-
 [color]
 	ui = true
-
 [core]
-	excludesfile = ~/.gitignore
+	autocrlf = input
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
