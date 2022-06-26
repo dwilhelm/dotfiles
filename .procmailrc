@@ -1,0 +1,15 @@
+# variable declarations
+SHELL=/bin/sh
+PMDIR=$HOME/Procmail
+LOGFILE=$PMDIR/pmlog
+LOG="
+"
+DEFAULT=$HOME/Maildir/
+MAILDIR=$HOME/Maildir/
+
+# processing
+
+INCLUDERC=$PMDIR/rc.admin
+INCLUDERC=$PMDIR/rc.spam
+
+# EOF
