@@ -12,6 +12,7 @@ set nohlsearch          " don't highlight all occurences of search string
 set list                " display whitespace characters
 set listchars=eol:⏎,tab:→\ ,trail:·,precedes:«,extends:»
 nmap <F8> :w<CR>:!aspell check %<CR>:e<CR>
+nmap <F9> :set list! list?<CR>
 
 " syntax highlighting
 if has("syntax")
