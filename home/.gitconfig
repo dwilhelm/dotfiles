@@ -1,11 +1,13 @@
 [user]
 	name = David Wilhelm
 	email = email@example.com
-[color]
-	ui = true
 [core]
 	autocrlf = input
+[diff]
+	algorithm = histogram
 [init]
 	defaultBranch = main
+[merge]
+	conflictstyle = zdiff3
 [pull]
 	ff = only
