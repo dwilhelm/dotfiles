@@ -2,7 +2,7 @@
 	name = David Wilhelm
 	email = email@example.com
 [core]
-	autocrlf = input
+	autocrlf = true
 [diff]
 	algorithm = histogram
 [init]
