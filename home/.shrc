@@ -12,12 +12,15 @@ if [ `id -u` -ne 0 ]; then
 		;;
 	esac
 	# Set prompt.
-	PROMPT_HOSTCOLOR='0;32m'
-	PROMPT_TIMECOLOR='0;36m'
-	PROMPT_PWDCOLOR='0;33m'
-	PS1="${PS1}\n\
+	PROMPT_HOSTCOLOR='01;32m'
+	PROMPT_TIMECOLOR='01;34m'
+	PROMPT_PWDCOLOR='01;33m'
+	PS1="${PS1}\
 \[\e[${PROMPT_HOSTCOLOR}\]\u@\h\
 \[\e[${PROMPT_TIMECOLOR}\] \d \t\
 \[\e[${PROMPT_PWDCOLOR}\] \w\
-\[\e[0m\]\n\$ "
+\[\e[0m\]\$ "
 fi
+
+alias ll='ls -lAF'
+export EDITOR=/usr/bin/vim
