@@ -7,6 +7,6 @@ do
 	F=$(echo $F | sed "s;${BASEDIR}/;;")
 	echo "Checking $F"
 	test -f ~/$F || echo "    Not found $F"
-	diff --color -U0 ~/$F ${BASEDIR}/$F
+	git diff ~/$F ${BASEDIR}/$F
 done
 
