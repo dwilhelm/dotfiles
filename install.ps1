@@ -1,1 +1,1 @@
-cp -Recurse home/* ~
+cp -Recurse -Force home/* ~
