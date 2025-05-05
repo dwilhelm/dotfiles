@@ -11,3 +11,5 @@
 	conflictstyle = zdiff3
 [pull]
 	ff = only
+[alias]
+	adog = log --all --decorate --oneline --graph
