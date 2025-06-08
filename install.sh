@@ -1,4 +1,4 @@
 #!/bin/sh
 
-rsync -avz home/ ~
+rsync -avz --exclude .*.swp home/ ~
 chmod 700 ~
