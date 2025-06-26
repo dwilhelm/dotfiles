@@ -31,4 +31,5 @@ endif
 " filetype specific configuration
 if has("autocmd")
 	autocmd FileType python set expandtab
+	autocmd FileType yaml setlocal tabstop=2 shiftwidth=2 expandtab
 endif
