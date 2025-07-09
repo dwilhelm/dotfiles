@@ -23,4 +23,5 @@ if [ `id -u` -ne 0 ]; then
 fi
 
 alias ll='ls -lAF'
+alias rsync='rsync --exclude ".*.swp" --exclude ".DS_Store" --exclude "Photos Library.photoslibrary"'
 export EDITOR=/usr/bin/vim
