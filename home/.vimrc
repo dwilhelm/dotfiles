@@ -9,8 +9,8 @@ set incsearch           " incremental search (search as you type)
 set noshowmatch         " don't show matching brackets
 set visualbell          " use a flash instead of a beep
 set nohlsearch          " don't highlight all occurences of search string
-set list                " display whitespace characters
-set listchars=eol:⏎,tab:→\ ,trail:·,precedes:«,extends:»
+"set list                " display whitespace characters
+set listchars=eol:$,tab:>-\ ,trail:_,precedes:<,extends:>
 nmap <F8> :w<CR>:!aspell check %<CR>:e<CR>
 nmap <F9> :set list! list?<CR>
 
