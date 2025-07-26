@@ -25,6 +25,9 @@ fi
 if [ -z "$EDITOR" ] ; then
 	export EDITOR=/usr/bin/vim
 fi
+if [ -z "$LANG" ] ; then
+	export LANG="en_US.UTF-8"
+fi
 
 # Aliases
 alias ll='ls -lAF'
