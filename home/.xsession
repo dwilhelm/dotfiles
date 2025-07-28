@@ -1,2 +1,2 @@
-xterm &
-fvwm
+st &
+dwm
