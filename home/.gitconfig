@@ -3,6 +3,7 @@
 	email = email@example.com
 [core]
 	autocrlf = input
+	pager = cat
 [diff]
 	algorithm = histogram
 [init]
