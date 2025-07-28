@@ -4,7 +4,8 @@ export VISUAL=/usr/local/bin/vim
 
 # sh/ksh initialization
 export HISTFILE=$HOME/.ksh_history
-export PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin
+PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin
+export PATH HOME TERM
 
 # Use 0x7f (standard Backspace key code) for erase
 stty erase ^?
