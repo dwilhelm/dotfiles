@@ -1,6 +1,17 @@
 [user]
 	name = David Wilhelm
 	email = email@example.com
-
-[color]
-	ui = true
+[core]
+	autocrlf = input
+[diff]
+	algorithm = histogram
+[init]
+	defaultBranch = main
+[checkout]
+	defaultRemote = origin
+[merge]
+	conflictstyle = zdiff3
+[pull]
+	ff = only
+[alias]
+	adog = log --all --decorate --oneline --graph

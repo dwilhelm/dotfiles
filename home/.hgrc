@@ -1,50 +1,41 @@
 [ui]
 username = David Wilhelm <email@example.com>
 merge = kdiff3
-ignore = ~/.hgignore
 
 [auth]
-bitbucket.prefix = bitbucket.org
-bitbucket.username = exampleuser
-bitbucket.schemes = https
+bitbucket.org.prefix = bitbucket.org
+bitbucket.org.username = exampleuser
+bitbucket.org.schemes = https
 
 [diff]
 git = True
-showfunc = True
 
 [extdiff]
 cmd.kdiff3 =
 
-[merge-tools]
-kdiff3.args = --auto --L1 base --L2 parent1 --L3 parent2 $base $local $other -o $output
-kdiff3.diffargs = --L1 '$plabel1' --L2 '$clabel' $parent $child
-kdiff3.diff3args = --L1 '$plabel1' --L2 '$clabel' --L3 '$plabel2' $parent1 $child $parent2
-kdiff3.dirdiff = True
-kdiff3.fixeol = False
-
 [extensions]
 color =
+convert =
 extdiff =
-graphlog =
-hgsubversion = ~/src/hgext/hgsubversion/hgsubversion
+#evolve = ~/src/hgext/evolve/hgext3rd/evolve/
+#hgsubversion = ~/src/hgext/hgsubversion/hgsubversion
 mq =
 patchbomb =
+purge =
+rebase =
 record =
+strip =
+#hggit =
 
 [smtp]
 host = localhost
 
 [tortoisehg]
-editor = gedit
 vdiff = kdiff3
 summarylen = 64
-messagewrap = 72
 tabwidth = 4
 initialrevision = workingdir
 fullpath = True
-
-[trusted]
-users = root
 
 [web]
 cacerts = /etc/ssl/cert.pem

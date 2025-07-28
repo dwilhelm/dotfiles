@@ -1,59 +1,34 @@
 # Generic shell session setup.
 
-# Make sure all of the important directories are in the path, covering *nix
-# and Cygwin to include Windows path.
-if [ -z "$PATH" ]; then
-	export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games
-else
-	export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games:${PATH}
-fi
-
-# Linker lib path
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
-
-# common utilities
-export EDITOR=/usr/bin/vi
-export VISUAL=/usr/bin/vim
-
-# Language settings
-export LANG="en_US.utf8"
-
-# Set paths.
-PATH=${PATH}:$HOME/bin
-PYTHONPATH=/usr/local/lib/python/dist-packages:${HOME}/lib/python
-
-export PATH PYTHONPATH
-
-# Misc
-export RSYNC_RSH=ssh
-
-# Set prompt.
-
-#CONSOLE="vt220"
-PROMPT_HOSTCOLOR='0;32m'
-PROMPT_TIMECOLOR='0;36m'
-PROMPT_PWDCOLOR='0;33m'
-
 # Change the prompt for non-root users
 if [ `id -u` -ne 0 ]; then
-
-# Include the path in the title bar, if supported.
-case "${TERM}" in
-xterm*|rxvt*)
-	PS1="\[\e]2;\h:\w\a\]"
-	;;
-*)
-	PS1=""
-	;;
-esac
-
-PS1="${PS1}\n\
+	# Include the path in the title bar, if supported.
+	case "${TERM}" in
+	xterm*|rxvt*)
+		PS1="\[\e]2;\h:\w\a\]"
+		;;
+	*)
+		PS1=""
+		;;
+	esac
+	# Set prompt.
+	PROMPT_HOSTCOLOR='01;32m'
+	PROMPT_TIMECOLOR='01;34m'
+	PROMPT_PWDCOLOR='01;33m'
+	PS1="${PS1}\
 \[\e[${PROMPT_HOSTCOLOR}\]\u@\h\
 \[\e[${PROMPT_TIMECOLOR}\] \d \t\
 \[\e[${PROMPT_PWDCOLOR}\] \w\
-\[\e[0m\]\n\$ "
-
+\[\e[0m\]\$ "
 fi
 
-# Use 0x7f (standard Backspace key code) for erase
-stty erase 
+if [ -z "$EDITOR" ] ; then
+	export EDITOR=/usr/bin/vim
+fi
+if [ -z "$LANG" ] ; then
+	export LANG="en_US.UTF-8"
+fi
+
+# Aliases
+alias ll='ls -lAF'
+alias rsync='rsync --exclude ".*.swp" --exclude ".DS_Store" --exclude "Photos Library.photoslibrary"'
