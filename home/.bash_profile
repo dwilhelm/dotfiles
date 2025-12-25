@@ -4,8 +4,6 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
 [[ -r "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
