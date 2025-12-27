@@ -17,6 +17,10 @@ set signature="~/.signature"
 set markers="no"
 set reverse_name
 
+# HTML messages
+set mailcap_path="~/.mutt/mailcap"
+auto_view text/html
+
 # List of header fields to display
 unignore from: subject to cc date x-mailer x-url user-agent x-spam-status
 
