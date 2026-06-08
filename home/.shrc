@@ -19,8 +19,7 @@ if [ `id -u` -ne 0 ]; then
 \[\e[${PROMPT_HOSTCOLOR}\]\u@\h\
 \[\e[${PROMPT_TIMECOLOR}\] \d \t\
 \[\e[${PROMPT_PWDCOLOR}\] \w\
-\[\e[0m\]
-\$ "
+\[\e[0m\]\n\$ "
 fi
 
 if [ -z "$EDITOR" ] ; then
