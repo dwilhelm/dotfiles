@@ -2,6 +2,7 @@
 
 set nocompatible        " explicit vim instead of vi defaults
 set autoindent          " smart cursor position on new lines
+set expandtab           " use appropriate number of spaces instead of tabs
 set tabstop=4
 set shiftwidth=4
 set ruler               " show the cursor position (x,y)
