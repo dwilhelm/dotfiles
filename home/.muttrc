@@ -60,4 +60,3 @@ bind pager G bottom
 # server specific tweaks
 set realname="David Wilhelm"
 set from="dave@jumbledpile.com"
-alternates "dave@jumbledpile.com|email@example.org"
